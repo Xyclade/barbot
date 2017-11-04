@@ -121,9 +121,10 @@ F2 H2500 W3000 ; Pour two times, hold dispenser open for 2500ms and wait for 300
 The Barbot Slack group is your first stop for questions and advice about building your own Barbot. You can join the Barbot Slack group [here](https://openbarbot.herokuapp.com).
 
 
-##Troubleshooting
+## Troubleshooting
 
 * The maestro keeps blinking yellow constantly with a second interval and pouring does not work
+
 Solution: Download the latest firmware (1.0.3 at this time) from the [Pololu website](https://www.pololu.com/docs/0J40/all#4.f) and upgrade the fimrware using the Maestro control center. Then set the Serial settingsto UART Fixed aud Rate (9600) and you should be good to go.
 
 
